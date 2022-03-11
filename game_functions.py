@@ -243,15 +243,15 @@ class Huangame():
                 else:
                     huang = ran.randint(1, 100)
                     if huang <= ai_settings.l_f_A_o:
-                        self.first_player_normal_attacks = 2 * self.first_player_normal_attacks
+                        self.second_player_normal_attacks = 2 * self.second_player_normal_attacks
                         print('OH，' + self.second_player_name + '你打出了暴击!')
                     self.first_player_hp = self.first_player_hp - self.second_player_normal_attacks
 
-                if self.first_player_professional == '2' and self.first_player_professional_zj_active == False:
+                if self.first_player_professional == '2' and self.first_player_professional_zj_active == True:
                     print('本回合玩家 ' + self.first_player_name + ' 未造成伤害')
                 else:
                      print('第一位玩家造成了 ' + str(self.first_player_normal_attacks) + ' 点伤害')
-                if self.second_player_professional == '2' and self.second_player_professional_zj_active == False:
+                if self.second_player_professional == '2' and self.second_player_professional_zj_active == True:
                     print('本回合玩家 ' + self.second_player_name + ' 未造成伤害')
                 else:
                     print('第二位玩家造成了 ' + str(self.second_player_normal_attacks) + ' 点伤害')
