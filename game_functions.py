@@ -408,9 +408,10 @@ class Huangame():
                                     print('不得够买超过9瓶药水')                                
                             else:
                                 print('您的硬币不足')  
-
-                elif huang == '3' or '4':
-                    print('尚未开发')    
+                                
+                        elif huang == 'q':
+                            print(self.second_player_name + ' 结束购买')
+                            break
 
                 elif huang == 'q':
                     print(self.second_player_name + ' 结束购买')
