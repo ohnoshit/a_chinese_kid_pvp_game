@@ -1,5 +1,5 @@
 # a_chinese_kid_pvp_game
-谢谢你看到了这个程序
+谢谢你看到了这个程序\n
 如果可以的话希望你可以玩一下
 你可以在分支 ohnoshit-patch-13 用绿色的 Code 下载 ZIP
 解压后用python游玩
