@@ -13,7 +13,7 @@
 
 https://pypi.org/project/colorama/ 可以复制下载指令
 
-或者你可以直接复制：pip install colorama
+或者你可以直接复制然后运行：pip install colorama
 
 然后你可以直接点击 pvp.py 开始游玩
 
